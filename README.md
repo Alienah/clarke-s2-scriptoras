@@ -1,3 +1,3 @@
 # clarke-s2-scriptoras
 
-Proyecto del sprint 2. Equipo 1 de las mañanas
+Segundo proyecto de trabajo en grupo consistente en una web para crear un currículim interactivo. HTML, CSS y Javascript
