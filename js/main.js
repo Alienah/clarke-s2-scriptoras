@@ -94,7 +94,7 @@ var idx = 0;
 var txt = 'Crea tu CV con estilo...'.split('');
 var speed = 150;
 var waitOnFinish = 3000;
-var soundEfx = document.getElementById('sound-efx');
+// var soundEfx = document.getElementById('sound-efx');
 var textCreaEl = document.querySelector('.text-crea');
 
 document.addEventListener('DOMContentLoaded', typeWriter);
@@ -106,7 +106,7 @@ function typeWriter() {
     setTimeout(function() {
       textCreaEl.innerHTML = tempTxt + txt[idx];
       idx++;
-      soundEfx.play();
+      // soundEfx.play();
       setTimeout(typeWriter, speed);
     }, speed/2);
   } else {
